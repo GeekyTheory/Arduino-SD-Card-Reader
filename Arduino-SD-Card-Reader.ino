@@ -77,7 +77,7 @@ void loop()
 	while (buttonState == LOW);
 	/*si ha llegado al final de la linea y está en la en la segunda linea,
 	pasa a la primera linea y situate al principio de la linea */
-	if((i>15)$$(setcursor==true)) {
+	if((i>15)&&(setcursor==true)) {
 		lcd.setCursor(0,0);
 		i=0;
 		setcursor=!setcursor;
